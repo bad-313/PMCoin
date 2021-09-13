@@ -1,0 +1,8 @@
+name: PMCoin
+author: Ali's
+main: PMCoin\Coin
+api: 3.9.0
+command:
+  coin:
+  descripsion: "to look your coin"
+  permission: coin.main
