@@ -1,0 +1,41 @@
+#welcome join server message
+# {player} -> Player name
+welcome.message: "§aSelamat Datang"
+
+#join && quit message
+# {player} -> Player name
+join.message: "{player} Online"
+quit.message: "{player} Offline"
+
+#message if level up
+# {level} -> Player level
+level.up.message: "Level Up"
+
+#display level
+# {player} -> Player name
+# {level} -> player level
+display.name: "§e[§cLv.{level}§e] §a{player}"
+
+#deskripsi pada UI profile level
+# {player} -> Player name
+# {level} -> player level
+# {nexlevel} -> next xp to up level
+# {rewand_1} until {rewand_5} -> see money rewand
+deskripsi.formUI: "Status Level Saat ini : {level}\nXp anda saat ini {xp}/{next_level}\n\nRewind Level :\n1. Level 2 = Rp {rewand_1}\n2. Level 9 = Rp {rewand_2}\n3. Level 15 = Rp {rewand_3}\n4. Level 35 = Rp {rewand_4}\n5. Level 50 = Rp {rewand_5}"
+
+#max Level yang bisa dicapai
+max.level: 50
+
+#tentukan dilevel mana akan mendapatkan hadiah
+level.rewand.1: 2
+level.rewand.2: 9
+level.rewand.3: 15
+level.rewand.4: 35
+level.rewand.5: 50
+
+#besar hadiah yang akan didapat
+money.rewand.1: 10000
+money.rewand.2: 300000
+money.rewand.3: 500000
+money.rewand.4: 1500000
+money.rewand.5: 3000000
